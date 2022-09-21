@@ -36,5 +36,5 @@ function displayWindow() {
     window.setTimeout(function() {
         $(".popup").hide();
         $(".overlay").hide();
-    }, 5000);
+    }, 3000);
 }
