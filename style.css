@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    font-family: sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: whitesmoke;
+}
+
+.heading {
+    font-size: 75px;
+
+    text-align: center;
+
+    font-weight: bold;
+}
+
+.vote {
+    margin-top: 250px;
+
+    width: 30vw;
+
+    margin-left: 30vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.option {
+    font-size: 44px;
+
+    padding: 20px;
+    
+    border-radius: 15px;
+
+    outline: none;
+
+    cursor: pointer;
+}
