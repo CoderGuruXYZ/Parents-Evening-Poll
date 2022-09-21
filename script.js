@@ -14,10 +14,27 @@ $("#yes").on("click", function() {
     yes++;
 
     firebase.database().ref('yes').set({yes});
+
+    displayWindow();
 });
 
 $("#no").on("click", function() {
     no++;
 
     firebase.database().ref('no').set({no});
+
+    displayWindow();
 });
+
+function displayWindow() {
+    $(".popup").show();
+    $(".overlay").show();
+
+    $(".yes").html("Yes: " + yes);
+    $(".no").html("No: " + no);
+
+    window.setTimeout(function() {
+        $(".popup").hide();
+        $(".overlay").hide();
+    }, 5000);
+}

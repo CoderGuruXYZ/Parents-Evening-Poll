@@ -1,40 +1,45 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset='utf-8'>
-        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-        <title>RGSHW Parents Eveningm 2022</title>
-        <meta name='description' content=''>
-        <meta name='viewport' content='width=device-width, initial-scale=1'>
-        <link rel='stylesheet' href='style.css'>
-        <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.15.1/css/all.css' integrity='sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp' crossorigin='anonymous'>
-        <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
-        <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-database.js"></script>
 
-        <script src="jquery-3.6.0.min.js"></script>
-    </head>
-    <body>
-        <script src = "init.js"></script>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>RGSHW Parents Eveningm 2022</title>
+    <meta name='description' content=''>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='style.css'>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.15.1/css/all.css'
+        integrity='sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp' crossorigin='anonymous'>
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-database.js"></script>
 
-        <div class="popup">
-            <div class = "popupTitle">Thanks for Voting!</div>
-            <div class="results">
-                <div class="resultsTitle">Results:</div>
-                <span class="yes">Yes: 0</span>
-                <span class="no">No: 0</span>
-            </div>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <script src="init.js"></script>
+
+    <div class="popup">
+        <div class="popupTitle">Thanks for Voting!</div>
+        <div class="results">
+            <div class="resultsTitle">Results:</div>
+            <span class="yes">Yes: 0</span>
+            <span class="no">No: 0</span>
         </div>
-        <div class="overlay"></div>
+    </div>
+    <div class="overlay"></div>
 
-        <div class="content">
-            <div class="heading">Did You Enjoy the Computer Science Section of Today's Year 6 Evening?</div>
+    <div class="content">
+        <div class="heading">Did You Enjoy the Computer Science Section of Today's Year 6 Evening?</div>
 
-            <div class="vote">
-                <button class="option" id = "yes">Yes</button>
-                <button class="option" id = "no">No</button>
-            </div>
+        <div class="vote">
+            <button class="option" id="yes">Yes</button>
+            <button class="option" id="no">No</button>
         </div>
-    
-        <script src='script.js'></script>
-    </body>
+    </div>
+
+    <script src='script.js'></script>
+</body>
+
 </html>
